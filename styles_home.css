@@ -1,0 +1,193 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin-top: 80px;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #5cb85c;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Hover effect for nav links */
+/* Hover effect for nav links */
+.nav-link:hover {
+    color: yellow; /* Change text color on hover to yellow */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+/* Logo */
+.logo img {
+    width: 50px;
+}
+
+/* Menu */
+.menu {
+    margin-top: 20px;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #189AB4;
+    font-size: 16px;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-text h2 {
+    margin-bottom: 20px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+/* How It Works section */
+.how-it-works {
+    background-color: #eaf7eb;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.step i {
+    font-size: 36px;
+    color: #5cb85c;
+}
+
+.step h3 {
+    margin-top: 20px;
+}
+
+/* Featured Meals section */
+.featured-meals {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    overflow-x: auto;
+}
+
+.meals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap */
+}
+
+.meal {
+    width: calc(33.33% - 20px); /* Adjust width to fit three items per row with spacing */
+    margin: 0 10px 20px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.meal:last-child {
+    margin-right: 0;
+}
+
+.meal:hover {
+    transform: scale(1.05);
+}
+
+.meal img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.meal h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Why Choose Us section */
+.why-choose-us {
+    background-color: #c5e1a5;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.reasons {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reason {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.reason i {
+    font-size: 36px;
+    color: #5cb85c;
+}
