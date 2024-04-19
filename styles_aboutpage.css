@@ -246,7 +246,21 @@ h3 {
 
 }
 
-s
+.foodsource .hidden,
+.why .hidden {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foodsource img,
+.why img {
+    width: 48%; 
+    height: auto; 
+    margin-bottom: 10px; 
+}
+
 
 /* Footer styles */
 footer {
